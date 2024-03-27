@@ -24,11 +24,22 @@ Docker Bench for Security is a script that checks for dozens of common best-prac
 You have two options if you wish to build and run this container yourself:
 
 1. Use Docker Build:
-    '''
+    ```bash
     git clone https://github.com/docker/docker-bench-security.git
     cd docker-bench-security
     docker build --no-cache -t docker-bench-security .
-    '''
+    ```
+
+Followed by an appropriate ```bash docker run ``` command.
+
+2. Use Docker Compose:
+    ```bash
+    git clone https://github.com/docker/docker-bench-security.git
+    cd docker-bench-security
+    docker-compose run --rm docker-bench-security
+    ```
+
+
 #### Usage
 1. Run the Docker Bench for Security script:
     ```bash
