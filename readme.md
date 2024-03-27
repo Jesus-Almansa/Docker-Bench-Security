@@ -52,5 +52,4 @@ Followed by an appropriate ```bash docker run ``` command.
 
     ```
 
-#### Parsing JSON Output to HTML
-
+Now you can use the python file to export the .json to a readable .html
